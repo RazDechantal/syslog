@@ -16,7 +16,7 @@ def run_command(command):
 
 def main():
     # Read the sys.log file
-    with open('sys.log', 'r') as file:
+    with open('error.log', 'r') as file:
         log_lines = file.readlines()
 
     info_messages = []
